@@ -13,7 +13,7 @@ CTF25 shows the initial briefing email from Sphinx explaining the simulation and
 
 ---
 
-## 🔎 Step 1 — Malware Sandbox Analysis & Hash Blocking (CTF26 → CTF27)
+## 🔎 Step 1 — Malware Sandbox Analysis & Hash Blocking 
 **What I did**
 - Uploaded `sample1.exe` to the Malware Sandbox (Malware Box) and reviewed the **General Info** and **Behavior Analysis**.
 - Noticed multiple file hashes; copied the **MD5** hash from the report.
@@ -31,7 +31,7 @@ CTF25 shows the initial briefing email from Sphinx explaining the simulation and
 
 ---
 
-## 🔎 Step 2 — Network Indicators & Firewall Rule (CTF28 → CTF30)
+## 🔎 Step 2 — Network Indicators & Firewall Rule
 **What I did**
 - Uploaded the next sample to Malware Box. The analysis now included a **Network** section showing outbound HTTP requests and a suspicious IP address.
 - Copied the malicious IP and created a firewall rule in the **Firewall Rule Manager** to block that IP.
@@ -51,7 +51,7 @@ CTF25 shows the initial briefing email from Sphinx explaining the simulation and
 
 ---
 
-## 🔎 Step 3 — DNS Indicators & DNS Filter (CTF31 → CTF33)
+## 🔎 Step 3 — DNS Indicators & DNS Filter
 **What I did**
 - Uploaded the next sample; analysis revealed suspicious DNS queries/domains in the **Network - DNS** section.
 - Copied the suspicious domain and added a block rule in the **DNS Filter Module**.
@@ -71,7 +71,7 @@ CTF25 shows the initial briefing email from Sphinx explaining the simulation and
 
 ---
 
-## 🔎 Step 4 — Registry Indicators & Sigma Rule (CTF34 → CTF36)
+## 🔎 Step 4 — Registry Indicators & Sigma Rule 
 **What I did**
 - Uploaded the next sample; a **Registry** section showed suspicious registry modification artifacts.
 - Used the **Sigma Rule Builder** to create a detection rule:
@@ -95,13 +95,14 @@ CTF25 shows the initial briefing email from Sphinx explaining the simulation and
 
 ---
 
-## 🔎 Step 5 — Network Logs Analysis & Sigma (Size/Interval) (CTF37 → CTF39)
+## 🔎 Step 5 — Network Logs Analysis & Sigma (Size/Interval) (
 **What I did**
 - One of the attachments (`outgoing connections.log`) contained many connections. I noticed a repeating pattern: the same byte size (97 bytes) every 30 minutes — likely a beacon to C2.
 - Built a Sigma rule targeting Sysmon network events with:
   - Network size = 97 bytes  
   - Interval = 1800 seconds (30 minutes)  
   - Source/Destination IP set to `ANY` (attackers can rotate IPs)
+  - Mapped to ATT&CK category: **TA0011 — Command and Control**
 - Deployed the Sigma rule.
 
 **Screenshots**
@@ -119,12 +120,13 @@ CTF25 shows the initial briefing email from Sphinx explaining the simulation and
 
 ---
 
-## 🔎 Step 6 — File Creation Detection & Final Sigma Rule (CTF40 → CTF42)
+## 🔎 Step 6 — File Creation Detection & Final Sigma Rule 
 **What I did**
 - Analyzed `commands.log` and found the malware would create a file `%temp%\exfiltr8.log` to stage exfil.
 - Created a Sigma rule for **Sysmon File Create / Modify** events:
   - Path: `%temp%`  
   - File name: `exfiltr8.log`
+  - ATT&CK ID: Mapped to ATT&CK category: **TA0010 — Exfiltration**
 - Deployed the rule and validated success.
 
 **Screenshots**
