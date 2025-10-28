@@ -14,7 +14,7 @@ This makes it particularly useful for **high-level analysis**, threat modeling, 
 
 ## 📊 Unified Kill Chain Diagram
 
-![Unified Kill Chain Diagram](./screenshots/Unified.png)
+![Unified Kill Chain Diagram](./screenshots/Unifiedkill.png)
 
 *Image source: [TryHackMe - Unified Kill Chain Room](https://tryhackme.com/room/unifiedkillchain)*
 
