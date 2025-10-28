@@ -18,6 +18,7 @@ Each framework is documented in its own Markdown file with key concepts, diagram
 ## 📂 Folder Structure
 
 Frameworks/
+
 ├── Pyramid-of-Pain.md
 
 ├── Cyber-Kill-Chain.md
