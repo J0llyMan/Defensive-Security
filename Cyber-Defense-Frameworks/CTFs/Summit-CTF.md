@@ -150,24 +150,17 @@ CTF25 shows the initial briefing email from Sphinx explaining the simulation and
   - Sigma rule abstraction allowed rapid translation of findings into SIEM-detectable rules.  
   - Blocking generic attributes (e.g., size+interval beacon) helps when adversaries rotate IPs/domains.
 - Caution:
-  - Some controls (hash blocks) are brittle — attackers can change binaries. Always prioritize higher-level detections (TTPs, behavior) where possible.
+  - Some controls (hash blocks) are brittle and attackers can change binaries. Always prioritize higher-level detections (TTPs, behavior) where possible.
   - DEFEND/ATT&CK mappings accelerate detection design but be mindful that public mappings could reveal defensive posture if exposed.
 
 ---
 
 ## ✅ Key Takeaways / Lessons Learned
-- Iterative detection engineering works — each successful control increases attacker cost and forces escalation.  
+- Iterative detection engineering works — Each successful control increases attacker cost and forces escalation.  
 - Reliable detection often requires **behavioral rules** (beacon interval/size, file creation patterns, registry changes) rather than static IOCs (hashes/IPs).  
 - Combining sandbox intelligence (file analysis) with SIEM rule construction (Sigma) is a practical workflow for SOC detection engineering.  
 - This simulation reinforced how to **operationalize indicators** into SIEM rules, firewall/DNS policies, and endpoint controls.
 
----
 
-## 🔧 Next Steps
-- Convert the Sigma rules used here into production-ready rule sets (documentation for exceptions, tuning, testing against benign traffic).  
-- Create a short lab documenting test alerts from each Sigma rule and steps to triage and validate true positives vs false positives.  
-- Store sanitized example sandbox reports and Sigma rule JSON/YAML in an `examples/` folder for future reference.
-
----
 
 **End of write-up — Summit CTF**
