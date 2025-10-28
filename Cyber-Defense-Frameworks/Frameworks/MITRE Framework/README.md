@@ -11,4 +11,4 @@ MITRE-Framework/
 
 ├── DEFEND.md
 
-└── screenshots/ # optional: ATT&CK Navigator screenshots, maps, notes
+└── screenshots/ : ATT&CK Navigator screenshots, maps, notes
