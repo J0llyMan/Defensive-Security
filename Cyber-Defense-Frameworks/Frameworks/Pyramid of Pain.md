@@ -8,7 +8,7 @@ While kill chain models focus on **the stages of an attack**, the **Pyramid of P
 ## 🧩 Overview
 
 The Pyramid of Pain is divided into **seven levels**, each representing a type of **Indicator of Compromise (IOC)**.  
-As you move **up the pyramid**, the **impact on the attacker increases**—it becomes harder for them to continue their operations without re-engineering tools or tactics.
+As you move **up the pyramid**, the **impact on the attacker increases** and it becomes harder for them to continue their operations without re-engineering tools or tactics.
 
 ---
 
@@ -44,13 +44,13 @@ As you move **up the pyramid**, the **impact on the attacker increases**—it be
 
 ## 🧠 Reflection
 
-Learning this framework helped me understand how **cyber defense isn’t just about detection—it’s about disruption**.  
+Learning this framework helped me understand how **cyber defense isn’t just about detection, it’s about disrupting the attacker**.  
 It’s a mindset shift: instead of reacting to every alert, it’s about strategically **targeting what hurts attackers the most**.
 
 ---
 
 *Tools/Platforms used while learning:*  
 - TryHackMe (Pyramid of Pain Room)  
-- Visual notes with draw.io and Obsidian for concept mapping  
+- Additional Reading from ATT&CKIQ
 
 ---
