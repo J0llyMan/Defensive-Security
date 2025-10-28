@@ -29,4 +29,4 @@ Frameworks/
 
 ├── MITRE-Framework.md
 
-└── screenshots/ # optional diagrams or visuals for each framework
+└── screenshots/ diagrams or visuals for each framework
