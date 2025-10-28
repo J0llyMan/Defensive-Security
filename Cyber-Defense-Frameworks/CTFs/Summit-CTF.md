@@ -6,7 +6,7 @@ This exercise emphasized iterative detection engineering: analyze malware report
 
 ---
 
-## 📸 Starting Email & Sample (CTF25)
+## 📸 Starting Email & Sample 
 CTF25 shows the initial briefing email from Sphinx explaining the simulation and that they will start with `sample1.exe`.
 
 ![Initial email / briefing](./screenshots/CTF25.png)
