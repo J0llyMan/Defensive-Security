@@ -1,6 +1,6 @@
 # MITRE DEFEND
 
-**DEFEND** is MITRE’s defensive complement to ATT&CK — it focuses on **controls and mitigations** that defenders can implement to detect, deny, disrupt, degrade, or deceive adversary activity. It is explicitly designed with blue-team use cases in mind.
+**DEFEND** is MITRE’s defensive complement to ATT&CK where it focuses on **controls and mitigations** that defenders can implement to detect, deny, disrupt, degrade, or deceive adversary activity. It is explicitly designed with blue-team use cases in mind.
 
 ---
 
@@ -29,7 +29,7 @@ To demonstrate practical use of DEFEND, I reviewed the DEFEND matrix and explore
 - The detail page for **Token-based Authentication** includes practical guidance that can be translated into SIEM checks, configuration hardening, and control validation tests.
 
 **Reflection / Caution**
-- While DEFEND is extremely useful for defenders—helping convert threat intelligence into concrete controls—the same clarity can be **leveraged by attackers** to discover which defenses an organisation might reasonably implement.  
+- While DEFEND is extremely useful for defenders by helping convert threat intelligence into concrete controls—the same clarity can be **leveraged by attackers** to discover which defenses an organisation might reasonably implement.  
 - For that reason, it’s important to treat DEFEND mappings as a **planning and internal design tool**, and avoid exposing detailed control mappings or playbooks publicly without appropriate context or access controls.
 
 ---
@@ -44,13 +44,14 @@ To demonstrate practical use of DEFEND, I reviewed the DEFEND matrix and explore
 
 ## 🔎 What I Learned
 - DEFEND provides a clear mapping from **ATT&CK techniques** to **defensive controls** (detect, deny, disrupt, degrade, deceive).  
-- The framework is intentionally practical for blue teams — it helps convert threat intelligence into measurable defensive actions.  
-- Example concept explored: **Decoy Files** — using deceptive or honeyfiles to detect lateral movement and data access attempts.
+- The framework is intentionally practical for blue teams because it helps convert threat intelligence into measurable defensive actions.  
+- Example concept explored: **Decoy Files** using deceptive or honeyfiles to detect lateral movement and data access attempts.
+- Example concept explored: **Token-Based** using token to increase the strength of Authentication process.
 
 ---
 
 ## 📌 Key Takeaways
-- DEFEND is highly actionable for blue teams — it reduces the gap between intel (ATT&CK) and operational security controls.  
+- DEFEND is highly actionable for blue teams because it reduces the gap between intel (ATT&CK) and operational security controls.  
 - Pairing **ATT&CK (what adversaries do)** with **DEFEND (what defenders should do)** creates a powerful cycle of identify → protect → validate.  
 - Small, targeted controls (like decoy files or specific logging rules) can offer high defensive value when mapped correctly.
 
