@@ -18,10 +18,10 @@ The exercise asks you to deploy a provided static site and map the following ite
 ---
 
 ## 📸 Screenshots
-1. **CTF7.png** — My filled answers beside each Kill Chain stage (submitted answers).  
+1. My filled answers beside each Kill Chain stage (submitted answers).  
    ![Filled Kill Chain answers](./screenshots/CTF7.png)
 
-2. **CTF8.png** — The challenge flag / success screen shown after completing the exercise.  
+2. The challenge flag / success screen shown after completing the exercise.  
    ![Flag / Success](./screenshots/CTF8.png)
 
 ---
@@ -34,14 +34,14 @@ The exercise asks you to deploy a provided static site and map the following ite
 ---
 
 ## 🔍 Observations & Notes
-- The exercise was straightforward — a fill-in-the-blanks mapping task.  
-- I completed it in a **single try** and received the flag immediately (see **CTF8.png**).  
+- The exercise was a straightforward fill-in-the-blanks mapping task.  
+- I completed it in a **single try** and received the flag immediately (see the screenshot above).  
 - This kind of exercise is useful for reinforcing the mapping between concrete artefacts/techniques and Kill Chain stages (Recon → Weaponization → Delivery → Exploitation → Installation → C2 → Actions on Objectives).
 
 ---
 
 ## ✅ Outcome & Reflection
 - Finished successfully on the first attempt and obtained the flag.  
-- Good reinforcement of how real-world incidents can be deconstructed into Kill Chain stages — a helpful activity for both red-team emulation planning and blue-team incident analysis.
+- Good reinforcement of how real-world incidents can be deconstructed into Kill Chain stages which is a helpful activity for both red-team emulation planning and blue-team incident analysis.
 
 ---
