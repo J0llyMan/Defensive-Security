@@ -19,8 +19,13 @@ Each framework is documented in its own Markdown file with key concepts, diagram
 
 Frameworks/
 ├── Pyramid-of-Pain.md
+
 ├── Cyber-Kill-Chain.md
+
 ├── Unified-Kill-Chain.md
+
 ├── Diamond-Model.md
+
 ├── MITRE-Framework.md
+
 └── screenshots/ # optional diagrams or visuals for each framework
