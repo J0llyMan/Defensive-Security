@@ -25,7 +25,7 @@ A multiple-choice matching game: for each prompt, select the UKC phase that best
 5. Question 5: I chose **Actions on Objectives** (correct).  
    ![Question 5 - Actions on Objectives](./screenshots/CTF13.png)
 
-6. Final screen: Flag / success and win-streak shown.  
+6. Final screen: Flag / success.  
    ![Flag / Win Streak](./screenshots/CTF14.png)
 
 ---
@@ -43,7 +43,7 @@ A multiple-choice matching game: for each prompt, select the UKC phase that best
 ---
 
 ## ✅ Outcome & Reflection
-- Successfully answered all prompts and obtained the flag (see **CTF14.png**).  
+- Successfully answered all prompts and obtained the flag.  
 - The exercise was a useful quick-check of UKC knowledge and highlighted the value of short refreshers before hands-on challenges or timed assessments.
 
 ---
