@@ -10,22 +10,22 @@ The challenge is a matching game where you are presented with sentences (descrip
 ---
 
 ## 📸 Screenshots
-1. **CTF1.png** — Overview: the challenge landing page and description of the game.  
+1. Overview: the challenge landing page and description of the game.  
    ![CTF Overview](./screenshots/CTF1.png)
 
-2. **CTF2.png** — Instruction screen part 1.  
+2. Instruction screen part 1.  
    ![Instructions 1](./screenshots/CTF2.png)
 
-3. **CTF3.png** — Instruction screen part 2 (further details on scoring / selection).  
+3. Instruction screen part 2 (further details on scoring / selection).  
    ![Instructions 2](./screenshots/CTF3.png)
 
-4. **CTF4.png** — Example of sentences matched to pyramid categories (top-right shows match status).  
+4. Example of sentences matched to pyramid categories (top-right shows match status).  
    ![Matches View](./screenshots/CTF4.png)
 
-5. **CTF5.png** — Pyramid lit up in various colors after selections to indicate correctness.  
+5. Pyramid lit up in various colors after selections to indicate correctness.  
    ![Pyramid Feedback](./screenshots/CTF5.png)
 
-6. **CTF6.png** — Flag displayed after successfully completing the challenge.  
+6. Flag displayed after successfully completing the challenge.  
    ![Flag](./screenshots/CTF6.png)
 
 ---
