@@ -47,5 +47,4 @@ Using the Unified Kill Chain in lab scenarios helped me see how frameworks can b
 - TryHackMe (Unified Kill Chain room)  
 - MITRE ATT&CK as a mapping resource  
 - SIEM practice (Splunk / ELK) for detection mapping  
-- Diagramming with draw.io / visual notes
 
