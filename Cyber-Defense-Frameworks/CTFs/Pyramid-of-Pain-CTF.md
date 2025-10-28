@@ -47,6 +47,6 @@ The challenge is a matching game where you are presented with sentences (descrip
 ## ✅ Outcome & Reflection
 - I eventually solved the challenge and obtained the flag (see **CTF6.png**).  
 - The exercise was an excellent **practical reinforcement** of the Pyramid of Pain concepts: it forced me to quickly evaluate indicators and decide whether they represent low-level artifacts (hashes, IPs) or higher-level adversary behavior (tools, TTPs, campaigns).  
-- It highlighted how *tool vs TTP* distinctions can be subtle and require careful reading — a useful reminder for triage and classification tasks in real SOC workflows.
+- It highlighted how *tool vs TTP* distinctions can be subtle and require careful reading which is a useful reminder for triage and classification tasks in real SOC workflows.
 
 ---
