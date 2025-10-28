@@ -16,6 +16,8 @@ As you move **up the pyramid**, the **impact on the attacker increases**—it be
 
 ![Pyramid of Pain Diagram](./screenshots/blog-pyramid-pain-01.jpg)
 
+*Image source: [ATT&CKIQ - Pyramid of Pain](https://www.attackiq.com/glossary/pyramid-of-pain-2/)*
+
 ---
 
 ## 🔍 The Seven Levels
