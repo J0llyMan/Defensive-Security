@@ -22,9 +22,9 @@ To demonstrate practical use of ATT&CK, I searched the **Phishing** technique an
 - The technique entry clearly lists examples, mitigations, and groups that have leveraged phishing in campaigns — useful for both red-team emulation and blue-team detection prioritisation.
 
 **Screenshots**
-![Phishing lookup - part 1](./screenshots/Phishing 1.png)
+![Phishing lookup - part 1](./screenshots/Phishing_1.png)
 
-![Phishing lookup - part 2](./screenshots/Phishing 2.png)
+![Phishing lookup - part 2](./screenshots/Phishing_2.png)
 
 *(Images show the technique entry and associated groups/references as seen in ATT&CK.)*
 
@@ -46,7 +46,7 @@ Next, I used **ATT&CK Navigator** to explore the profile of the *Carbanak G0008*
 **Screenshots**
 ![Navigator techniques view (Carbanak)](./screenshots/Navigator.png)
 
-![Navigator toolbar / filter view](./screenshots/Navigator bar.png)
+![Navigator toolbar / filter view](./screenshots/Navigator_bar.png)
 
 *(Images show the Navigator layer for Carbanak and the Navigator UI where filters and layer controls are applied.)*
 
