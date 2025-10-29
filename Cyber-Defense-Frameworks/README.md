@@ -44,8 +44,7 @@ Each CTF file includes:
 During these labs and exercises, I gained hands-on experience with:
 
 - **Threat Modeling & Framework Analysis:** MITRE ATT&CK, Cyber Kill Chain, Diamond Model, Pyramid of Pain  
-- **Endpoint Monitoring:** EDR tools and lab simulations  
-- **Lab Environments:** VirtualBox, VMware, OpenVPN and Windows/Linux VMs  
+- **Lab Environments:** VirtualBox, VMware, OpenVPN and Windows/Linux VMs, TryHackMe VMs & Static Sites
 - **Documentation & Reporting:** Markdown, diagrams, lab notes, screenshots  
 
 ---
