@@ -86,7 +86,7 @@ Use the MITRE ATT&CK Navigator layer for APT28 to:
 ## 🧠 Observations & Reflections
 
 - **MITRE ATT&CK Navigator** makes it easy to visually map an adversary’s full kill chain, from Recon to C2.  
-- **APT28** relies heavily on **email-based delivery** (spearphishing, malicious links/files) — a reminder to focus on mail gateway and endpoint telemetry.  
+- **APT28** relies heavily on **email-based delivery** (spearphishing, malicious links/files) which is a reminder to focus on mail gateway and endpoint telemetry.  
 - **Defense Evasion** and **Persistence** via registry edits and native binaries (`rundll32`) highlight why defenders should baseline system binaries.  
 - The **exercise structure mirrors real SOC workflows**: taking threat intel and mapping it to hunts.  
 - Some data mappings were outdated, so verifying ATT&CK IDs and reading technique pages helps cross-check.
