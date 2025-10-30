@@ -47,9 +47,15 @@ URL scan results contain a large amount of information. Some of the most useful 
 ## 🧠 Scenario: Scanning TryHackMe’s Domain
 
 In this scenario, I was tasked with analyzing the domain **tryhackme.com** using Urlscan.io.  
-The TryHackMe room provided a screenshot named **URL1.png** (in the `screenshots/` folder) since live data would produce different results at different times.  
+The TryHackMe room provided a screenshot named **URL1.png** (shown below) since live data would produce different results at different times.  
 
-However, I also performed my **own independent scan** on Urlscan.io to gain hands-on experience — proof of this can be found in **URL2.png**.
+![TryHackMe URLScan Results (Room Screenshot)](./screenshots/URL1.png)
+
+However, I also performed my **own independent scan** on Urlscan.io to gain hands-on experience — proof of this can be found in **URL2.png** below.
+
+![My Own TryHackMe URLScan Search](./screenshots/URL2.png)
+
+---
 
 ### 🧾 Findings from the Room Screenshot (URL1.png)
 | Question | Answer |
@@ -73,14 +79,4 @@ However, I also performed my **own independent scan** on Urlscan.io to gain hand
 ## 🧠 Reflection
 
 Performing this task helped reinforce how crucial automated tools are in **threat intelligence workflows**.  
-Using both the provided screenshot and my own scan allowed me to understand how URLScan.io captures **network relationships, site behavior, and resource calls** that might indicate compromise.
-
-It’s a simple yet powerful platform for SOC analysts, threat hunters, and CTI professionals alike — bridging the gap between **OSINT reconnaissance** and **forensic investigation**.
-
----
-
-### 🧰 Tools / Platforms Used While Learning:
-- **TryHackMe – URLScan.io Room**  
-- **Urlscan.io Web Interface**  
-- **TryHackMe VM Environment**  
-- **Markdown & Screenshot Documentation**
+Using both the provided screenshot and my own scan
