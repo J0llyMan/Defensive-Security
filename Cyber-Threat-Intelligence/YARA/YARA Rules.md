@@ -47,7 +47,7 @@ I tested the rule against my file and observed the output:
 > error scanning nonexistentfile.txt: could not open file
 
 
-The rule worked the first time because somefile exists in the directory returning examplerule somefile.txt in the output whilst the same could not be said for the second case. This exercise gave me confidence to explore more **advanced rules**, including string matching, logical conditions, and file attributes.
+The rule worked the first time because `somefile.txt` exists in the directory returning examplerule somefile.txt in the output whilst the same could not be said for the second case. This exercise gave me confidence to explore more **advanced rules**, including string matching, logical conditions, and file attributes.
 
 ---
 
@@ -55,7 +55,14 @@ The rule worked the first time because somefile exists in the directory returnin
 
 I experimented with **matching strings inside files** and **combining conditions** like file size or count checks:
 
-*(placeholder for code example)*
+`rule helloworld_checker {
+    strings:
+        $hello_world = "Hello World!"
+        $hello_world_lowercase = "hello world"
+        $hello_world_uppercase = "HELLO WORLD"
+    condition:
+        any of them
+}`
 
 This allowed me to detect specific content or patterns with precision.
 
@@ -66,7 +73,13 @@ This allowed me to detect specific content or patterns with precision.
 I explored **logical operators** like and, or, and not.  
 For example, checking for a string **and** a file attribute together:
 
-*(placeholder for code example)*
+`rule helloworld_filesize_checker {
+    strings:
+        $hello_world = "Hello World!"
+    condition:
+        $hello_world and filesize < 10KB
+}`
+
 
 The results showed how flexible YARA rules can be for real-world detection scenarios.
 
@@ -76,7 +89,13 @@ The results showed how flexible YARA rules can be for real-world detection scena
 
 After experimenting, I created a more structured and realistic rule:
 
-*(placeholder for code example)*
+`rule helloworld_filesize_checker {
+    strings:
+        $hello_world = "Hello World!"
+    condition:
+        $hello_world and filesize < 10KB
+}`
+
 
 This rule would detect files containing critical indicators, such as ransomware patterns or wallet addresses.
 
