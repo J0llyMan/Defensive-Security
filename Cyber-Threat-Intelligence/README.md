@@ -30,7 +30,7 @@ Each tool is documented in its own Markdown file, covering:
 - Practical walkthroughs  
 - Screenshots and analysis examples  
 
-📁 Folder: `Cyber-Threat-Intelligence-Tools/`
+📁 Folder: `Cyber Threat Intelligence Tools/`
 
 ---
 
