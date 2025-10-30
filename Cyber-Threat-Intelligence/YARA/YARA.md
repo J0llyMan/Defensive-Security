@@ -14,7 +14,7 @@ YARA can identify:
 - **Binary patterns** (hexadecimal sequences)  
 - **Logical combinations** of attributes through conditions  
 
-Essentially, it allows you to label and detect any kind of data signature—making it indispensable in malware analysis and digital forensics.
+Essentially, it allows you to label and detect any kind of data signature which makes it an indispensable resource in malware analysis and digital forensics.
 
 ---
 
@@ -43,7 +43,7 @@ This allows analysts to match specific byte sequences in files, even when textua
 
 ## 💡 Practical Usage & Findings
 
-Through this exercise, I gained a deeper understanding of how YARA can detect malware characteristics based on **strings and binary data**.  
+Through this TryHackMe, I gained a deeper understanding of how YARA can detect malware characteristics based on **strings and binary data**.  
 It highlights the power of rule-based detection and pattern recognition, particularly in static malware analysis.
 
 YARA's syntax and logic-based design make it suitable for:
