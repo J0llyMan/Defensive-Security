@@ -24,30 +24,30 @@ A YARA rule typically consists of three main sections:
 
 ### Step 1: Creating a Test File
 
-touch somefile.txt
+`touch somefile.txt` 
 
 ### Step 2: Creating the Rule File
 
-touch myfirstrule.yar
+`touch myfirstrule.yar`  
 
-### Step 3: Writing My First Rule
+### Step 3: Writing My First Rule using Nano
 
-rule examplerule {
+`rule examplerule {
     condition: true
-}
+}`
 
 I tested the rule against my file and observed the output:
 
-yara myfirstrule.yar somefile.txt
+`yara myfirstrule.yar somefile.txt`
 > Output:
 > examplerule somefile.txt
 
-yara myfirstrule.yar nonexistentfile.txt
+`yara myfirstrule.yar nonexistentfile.txt`
 > Output:
 > error scanning nonexistentfile.txt: could not open file
 
 
-This exercise gave me confidence to explore more **advanced rules**, including string matching, logical conditions, and file attributes.
+The rule worked the first time because somefile exists in the directory returning examplerule somefile.txt in the output whilst the same could not be said for the second case. This exercise gave me confidence to explore more **advanced rules**, including string matching, logical conditions, and file attributes.
 
 ---
 
