@@ -39,12 +39,12 @@ rule examplerule {
 I tested the rule against my file and observed the output:
 
 yara myfirstrule.yar somefile.txt
-> # Output:
-> # examplerule somefile.txt
+> Output:
+> examplerule somefile.txt
 
 yara myfirstrule.yar nonexistentfile.txt
-> # Output:
-> # error scanning nonexistentfile.txt: could not open file
+> Output:
+> error scanning nonexistentfile.txt: could not open file
 
 
 This exercise gave me confidence to explore more **advanced rules**, including string matching, logical conditions, and file attributes.
