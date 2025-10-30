@@ -1,6 +1,6 @@
 # 🛰️ Feodo Tracker
 
-**Feodo Tracker** is a project within the Abuse.ch family focused on tracking botnet command-and-control (C2) infrastructure—originally well known for tracking banking trojans such as Emotet, Dridex, and TrickBot.  
+**Feodo Tracker** is a project within the Abuse.ch family focused on tracking botnet command-and-control (C2) infrastructure which was originally well known for tracking banking trojans such as Emotet, Dridex, and TrickBot.  
 It provides timely lists of malicious IPs, domains, and associated metadata that analysts can use to detect, block, and investigate botnet activity.
 
 ---
