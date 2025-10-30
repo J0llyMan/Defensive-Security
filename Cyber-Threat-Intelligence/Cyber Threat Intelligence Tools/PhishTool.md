@@ -42,7 +42,7 @@ PhishTool elevates phishing awareness by **analyzing emails, uncovering IOCs, an
 ## 🧠 Reflection
 
 PhishTool is particularly valuable because OSINT is already integrated, providing **actionable intelligence directly from the tool**.  
-It complements traditional CLI-based analysis workflows, making it a versatile addition to an email analyst’s toolkit.In my own experience investigating phishing emails, I often prefer **command-line tools** like `olevba`, `cat`, `grep`, `md5sum`, combined with uploading files to malware analysis sites.
+It complements traditional CLI-based analysis workflows, making it a versatile addition to an email analyst’s toolkit. In my own experience investigating phishing emails, I often prefer **command-line tools** like `olevba`, `cat`, `grep`, `md5sum`, combined with uploading files to malware analysis sites.
 PhishTool’s built-in OSINT, however, makes it extremely useful for rapid investigations.
 
 ---
