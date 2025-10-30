@@ -57,7 +57,7 @@ However, I also performed my **own independent scan** on Urlscan.io to gain hand
 
 ---
 
-### 🧾 Findings from the Room Screenshot (URL1.png)
+### 🧾 Findings from the Room Screenshot
 | Question | Answer |
 |-----------|---------|
 | **TryHackMe’s Cisco Umbrella Rank** | 345612 |
