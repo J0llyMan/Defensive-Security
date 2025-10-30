@@ -32,7 +32,7 @@ The platform is particularly useful for **blocking malicious domains**, monitori
 ## 🧪 Example Scenario (TryHackMe Exercise)
 
 During the TryHackMe exercise, I investigated a malicious URL by searching its **ASN number** on URLHaus.  
-Although initially I had trouble locating the ASN section, I successfully identified the hosting provider as **DIGITALOCEAN**.
+Although initially I had trouble locating the ASN section, I successfully identified the hosting provider as **DIGITALOCEAN-ASN**.
 
 ![URLHaus - Example Output (Room Screenshot)](screenshots/URLH1.png)
 
