@@ -110,7 +110,7 @@ A **YARA Rule Cheatsheet** by researcher fr0gger_ helped me understand the compo
 ## 💡 My Reflection
 
 Writing YARA rules was one of the most enjoyable parts of my malware analysis journey.  
-I noticed that **YARA and Suricata IDS share conceptual similarities** — both rely on signatures and conditions to detect malicious behavior.  
+I noticed that **YARA and Suricata IDS share conceptual similarities** in which both of them relies on signatures and conditions to detect malicious behavior.  
 For anyone pursuing **Blue Teaming or Threat Hunting**, YARA is an absolute must-learn tool.
 
 ---
