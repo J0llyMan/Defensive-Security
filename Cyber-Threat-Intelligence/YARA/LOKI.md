@@ -19,7 +19,7 @@ What I found particularly exciting was how **LOKI’s detection capabilities cou
 
 ## 📊 User Experience
 
-When I ran LOKI for the first time, it immediately generated a **structured report**. The report included:
+When I ran LOKI for the first time, it immediately generated a **structured report** (Check CTFs & Projects for further details). The report included:
 
 - A list of suspicious files with explanations  
 - Indicators flagged as high, medium, or low risk  
