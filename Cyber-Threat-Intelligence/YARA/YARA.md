@@ -1,4 +1,4 @@
-# 🧩 YARA — The Pattern Matching Swiss Knife
+# 🧩 YARA 
 
 **YARA** is a powerful pattern-matching tool often described as *“The pattern matching Swiss knife for malware researchers (and everyone else)”* — (VirusTotal, 2020).  
 It is widely used by malware researchers, blue teamers, and threat hunters to identify and classify malware samples through **binary** and **textual** patterns.
