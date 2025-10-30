@@ -30,6 +30,13 @@ PhishTool elevates phishing awareness by **analyzing emails, uncovering IOCs, an
 
 ---
 
+## 🧪 Example Scenario (TryHackMe Exercise)
+
+During the Room, I explored PhishTool’s capabilities by doing an Exercise/Project (PhishTool-Project.md) but I have added it in the `/CTFs & Projects` for user readibility and proper file categorization.
+
+---
+
+
 ## 💡 Practical Usage & Findings
 
 - Quickly identify **malicious links and attachments** in phishing emails  
