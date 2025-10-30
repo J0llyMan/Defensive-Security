@@ -32,7 +32,7 @@ The platform is especially useful for **network monitoring**, **threat hunting**
 ## 🧪 Example Scenario (TryHackMe Exercise)
 
 During the TryHackMe exercise, I investigated an IOC string but initially struggled to find the answer because the string included a port.  
-After performing a **direct Google search**, I successfully identified the threat actor/tool as **Katana**.
+After performing a **direct Google search**, I successfully identified the Malware as **Katana**.
 
 ![ThreatFox - Example Output (Room Screenshot)](screenshots/TFox1.png)
 
