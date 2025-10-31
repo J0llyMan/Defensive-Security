@@ -60,6 +60,13 @@ However, I also performed my **own independent scan** on Urlscan.io to gain hand
 ![TryHackMe Room Screenshot](./screenshots/URLScan3.png)
 (From TryHackMe URLScan Room)
 
+## Questions
+
+- Question 1: What was TryHackMe's Cisco Umbrella Rank based on the screenshot?
+- Question 2: How many domains did UrlScan.io identify on the screenshot?
+- Question 3: What was the main domain registrar listed on the screenshot?
+- Question 4: What was the main IP address identified for TryHackMe on the screenshot?
+
 
 ### 🧾 Findings from the Room Screenshot
 | Question | Answer |
