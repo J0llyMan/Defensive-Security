@@ -32,7 +32,7 @@ PhishTool elevates phishing awareness by **analyzing emails, uncovering IOCs, an
 
 ## 🧪 Example Scenario (TryHackMe Exercise)
 
-During the Room, I explored PhishTool’s capabilities by doing an Exercise/Project (PhishTool-Project.md) but I have added it in the `/CTFs & Projects` for user readibility and proper file categorization.
+During the Room, I explored PhishTool’s capabilities by doing exploring its the Images and GIF files shown inside the rooms. I have not posted the resources due to its premium room status.
 
 ---
 
