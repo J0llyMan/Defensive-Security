@@ -31,6 +31,9 @@ The platform is particularly useful for **blocking malicious domains**, monitori
 
 ## 🧪 Example Scenario (TryHackMe Exercise)
 
+Question 1: From the statistics page on URLHaus, what malware-hosting network has the ASN number AS14061? 
+
+
 During the TryHackMe exercise, I investigated a malicious URL by searching its **ASN number** on URLHaus.  
 Although initially I had trouble locating the ASN section, I successfully identified the hosting provider as **DIGITALOCEAN-ASN**.
 
