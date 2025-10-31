@@ -89,12 +89,18 @@ The results showed how flexible YARA rules can be for real-world detection scena
 
 After experimenting, I created a more structured and realistic rule:
 
-`rule helloworld_filesize_checker {
+`rule ransomware_checker {
+    meta:
+        author = "John Snow"
+        description = "Detects possible ransomware based on ransom notes and Bitcoin wallet addresses"
+        reference = "TryHackMe - YARA Room"
     strings:
-        $hello_world = "Hello World!"
+        $bitcoin_wallet = "12t9YDPgwueZ9NyMgw519p7AA8isjr6SMw"
+        $ransom_note = "YOUR FILES HAVE BEEN ENCRYPTED"
     condition:
-        $hello_world and filesize < 10KB
-}`
+        any of ($bitcoin_wallet, $ransom_note)
+}
+`
 
 
 This rule would detect files containing critical indicators, such as ransomware patterns or wallet addresses.
