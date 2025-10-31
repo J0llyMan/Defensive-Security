@@ -1,79 +1,90 @@
-# MISP – Malware Information Sharing Platform
+# 🧩 MISP – Malware Information Sharing Platform
 
-## Overview
+## 🧠 Overview
 
-**MISP (Malware Information Sharing Platform)** is an open-source threat intelligence platform designed to **collect, store, and share Indicators of Compromise (IOCs)** and other cybersecurity-related data within trusted communities. It facilitates collaboration between organisations by enabling them to exchange actionable intelligence on malware, attacks, and threat actors.
+**MISP (Malware Information Sharing Platform)** is an open-source threat intelligence system designed to help cybersecurity professionals **collect, store, and share Indicators of Compromise (IOCs)** efficiently.  
+Its main strength lies in enabling trusted communities to collaborate and exchange information about **malware, threat actors, and attack campaigns** in real time.
 
-MISP operates on a **distributed model**, supporting closed, semi-private, and open sharing communities. This flexibility makes it suitable for enterprises, CERTs, SOC teams, and even law enforcement.
+I found MISP to be more than just a database but rather it’s essentially a **collaborative hub** that encourages defenders to pool knowledge, reducing duplication and improving the overall quality of shared intelligence.
 
 ---
 
-## Exploring MISP
+## 🌐 Exploring MISP
 
 ![MISP Overview](screenshots/MSIP1.png)
 
-When I first accessed MISP’s dashboard, the platform immediately highlighted its open-source nature and its focus on **sharing more with friends than adversaries** which is the heart of MISP’s philosophy. The diagram shown above visualises how threat intelligence flows between communities, helping establish a clear data-sharing pipeline.
+When I first accessed MISP’s interface, what stood out was how intuitive and data-driven it felt. The platform clearly emphasises **“sharing more with friends than adversaries do,”** and this idea carries through everything it does — from the dashboard layout to how events are structured.
 
-What stood out during exploration was MISP’s emphasis on **community-driven sharing**. Whether you are part of a national CERT, a corporate SOC, or a research lab, MISP encourages collaboration through shared IOCs and event data, reducing duplication of effort across teams.
+It’s built for all kinds of environments, whether small research teams or national CERTs, and its modular design makes it surprisingly easy to adapt.  
+Seeing the visual flow of data between communities helped me understand how **distributed intelligence sharing** works in real-world SOC settings.
 
 ---
 
-## Visualization and Dashboards
+## 📊 Dashboard & Visualisation
 
 ![MISP Dashboard](screenshots/MSIP2.png)
 
-MISP’s interface offers clean and intuitive **visualisation dashboards**, making it simple to track events, relationships, and data correlations. You can easily switch between analytical views, event graphs, and lists of correlated attributes. This makes investigations faster and more structured, especially when dealing with large threat data sets.
+The MISP dashboard provides a detailed overview of events, attributes, and their correlations. I really liked how easy it was to see **relationships between incidents and IOCs** without having to manually dig through data.  
+The visual representation of data helps bring patterns to light, especially when dealing with multiple campaigns that might be related.
 
-The visual interface also supports **data enrichment** from integrated sources, providing additional intelligence about IOCs with just a few clicks.
-
----
-
-## Core Features and Use Cases
-
-MISP’s primary goal is to make threat data **actionable and shareable**. Its features support multiple cybersecurity workflows:
-
-- **IOC Database:** Stores detailed indicators and context about malware, incidents, and threat actors.  
-- **Automatic Correlation:** Highlights relationships between attributes and attack campaigns automatically.  
-- **Data Sharing Models:** Enables closed, semi-private, and public data exchange.  
-- **Import/Export Integrations:** Connects with systems like **SIEMs, NIDS, and HIDS**.  
-- **Event Graphs:** Visualises how individual events and attributes connect.  
-- **API Support:** Allows for seamless integration with other platforms.
-
-These features make MISP valuable for malware analysis, forensic investigation, and even strategic threat intelligence sharing.
+It also supports **data enrichment**, which makes a big difference when you’re trying to validate IOCs or gather additional context from external sources.
 
 ---
 
-## Galaxy and Tagging
+## ⚙️ Core Features
+
+MISP’s functionality extends beyond data storage — it’s a complete ecosystem for sharing and analysis.  
+Some of the features that stood out to me were:
+
+- **IOC Database:** A structured way to manage technical and contextual threat data.  
+- **Automatic Correlation:** Detects links between attributes and campaigns automatically.  
+- **Flexible Sharing Models:** Lets you choose between private, semi-private, or public distribution.  
+- **Integration Options:** Can connect with SIEMs, IDS/IPS, and other CTI tools.  
+- **Event Graphs:** Useful for visualising how multiple events connect in larger threat campaigns.  
+- **API Access:** Enables automation and deeper integration with other intelligence platforms.
+
+---
+
+## 🪐 Galaxy & Tagging System
 
 ![MISP Galaxy View](screenshots/MSIP3.png)
 
-One of MISP’s strongest aspects is its **Galaxy** system — a structured knowledge base containing information about threat actors, malware families, and attack campaigns. These galaxies are connected to **tags and taxonomies**, helping analysts quickly classify and contextualize new threats.
+One of my favourite parts of MISP is the **Galaxy and tagging system**. The Galaxy framework gives each event more depth by linking it to **malware families, threat actors, or campaigns**.  
+It’s like a built-in reference library that connects the dots between isolated incidents.
 
-Tags are extremely versatile in MISP. They can be applied to both events and individual attributes, and they follow best practices that promote consistency:
-- Use **Traffic Light Protocol (TLP)** tags to control information flow.  
-- Apply **Confidence** tags to indicate data reliability.  
-- Add **Origin** and **Permissible Action** tags to describe the data’s source and intended use.
-
-This tagging and classification system ensures intelligence is both machine-readable and human-friendly.
+Tagging, on the other hand, adds structure and meaning to events. For example, I used tags to define the **confidence level**, **data source**, and **sharing restrictions**.  
+It’s a simple but powerful way to ensure that shared data remains consistent and usable for others in the community.
 
 ---
 
-## The Heart of Sharing
+## ❤️ The Art of Sharing
 
 ![The Art of Sharing](screenshots/MSIP4.png)
 
-MISP’s motto, *“Sharing more with friends than adversaries do,”* captures the essence of what makes it such a critical platform in cybersecurity collaboration. The “Art of Sharing” encourages trust among participants while maintaining strong governance models to prevent data misuse.
+MISP’s core philosophy really resonates with me to *“Share more with friends than adversaries do.”*  
+That mindset transforms cybersecurity from a defensive, isolated practice into a **cooperative effort**. It made me appreciate how essential trust and openness are in building a strong CTI network.
 
-For analysts and defenders, MISP represents a shift from working in isolation to **building a collective intelligence network**, where knowledge shared by one defender can protect many others.
+Even with sensitive data, MISP manages to strike a balance between **security and collaboration**, thanks to features like role-based permissions and traffic light protocols.
 
 ---
 
-## Final Thoughts
+## 💡 Reflection
 
-MISP is more than just a data-sharing tool — it’s a **collaborative ecosystem** for managing and distributing threat intelligence.  
-Its ability to **integrate with other platforms like OpenCTI and TheHive**, along with its **support for MITRE ATT&CK mapping**, makes it one of the most versatile and comprehensive open-source CTI tools available today.
+Working with MISP gave me a better understanding of what **threat intelligence sharing** actually looks like in practice.  
+Before this, I mostly saw CTI as data analysis, but MISP showed me how valuable structured collaboration can be especially when it’s done securely and transparently.
 
-I also completed a **hands-on MISP project**, where I explored tagging, event creation, and data correlation exercises.  
-Similar to my previous work, I’ve placed this project under the **CTFs & Projects** folder for better categorisation and reader accessibility.
+I also completed a small **hands-on project** within MISP where I experimented with event creation, tagging, and correlation.  
+Like my other labs, I’ve placed this under the **CTFs & Projects** folder to keep everything neatly organised and easy to reference later.
+
+---
+
+## 🧰 Tools & Resources
+
+- MISP Threat Intelligence Platform  
+- OpenCTI  
+- TheHive  
+- TryHackMe Lab Environment  
+- MITRE ATT&CK Framework  
+- Markdown Documentation  
 
 ---
