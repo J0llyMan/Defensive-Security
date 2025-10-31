@@ -57,6 +57,10 @@ However, I also performed my **own independent scan** on Urlscan.io to gain hand
 
 ---
 
+![TryHackMe Room Screenshot](./screenshots/URLScan3.png)
+(From TryHackMe URLScan Room)
+
+
 ### 🧾 Findings from the Room Screenshot
 | Question | Answer |
 |-----------|---------|
