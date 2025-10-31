@@ -32,6 +32,9 @@ The platform is especially useful for **network monitoring**, **threat hunting**
 ## 🧪 Example Scenario (TryHackMe Exercise)
 
 During the TryHackMe exercise, I investigated an IOC string but initially struggled to find the answer because the string included a port.  
+
+Question 1: The IOC 212.192.246.30:5555 is identified under which malware alias name on ThreatFox?
+
 After performing a **direct Google search**, I successfully identified the Malware as **Katana**.
 
 ![ThreatFox - Example Output (Room Screenshot)](screenshots/TFox1.png)
