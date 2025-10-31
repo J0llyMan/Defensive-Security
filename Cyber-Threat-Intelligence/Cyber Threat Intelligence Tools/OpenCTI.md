@@ -19,6 +19,7 @@ It enables:
 ## 🧠 My Observations & Experience
 
 ![OpenCTI Dashboard](screenshots/OCTI1.png)
+(From TryHackMe)
 
 When I explored **OpenCTI** through the TryHackMe room, I found the dashboard intuitive yet deeply powerful. It provides multiple visualization options and data relationship graphs that help analysts understand how different indicators connect to broader campaigns.
 
