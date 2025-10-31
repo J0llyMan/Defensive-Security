@@ -31,7 +31,7 @@ This resource is particularly useful when investigating encrypted command-and-co
 
 ## 🧪 Example Scenario (TryHackMe Exercise)
 
-Question: Which malware is associated with the JA3 Fingerprint 51c64c77e60f3980eea90869b68c58a8 on SSL Blacklist?
+Question 1: Which malware is associated with the JA3 Fingerprint 51c64c77e60f3980eea90869b68c58a8 on SSL Blacklist?
 
 During the TryHackMe exercise, I used **SSL Blacklist** to investigate a certificate/fingerprint associated with suspicious activity.  
 The room provided a screenshot (`SSLB1.png`) showing the SSL Blacklist output for the indicator in question.
