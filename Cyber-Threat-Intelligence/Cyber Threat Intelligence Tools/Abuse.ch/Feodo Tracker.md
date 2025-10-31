@@ -36,7 +36,6 @@ Feodo Tracker is particularly useful for:
 
 In the TryHackMe exercise, I used **Feodo Tracker** to investigate a suspected C2 domain and identify the geographic attribution.
 
-## Question
 
 - Question 1: Which country is the botnet IP address 178.134.47.166 associated with according to FeodoTracker?
 
