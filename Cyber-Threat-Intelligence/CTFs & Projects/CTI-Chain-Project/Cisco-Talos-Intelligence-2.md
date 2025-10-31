@@ -25,7 +25,7 @@ This is the **second part of the CTI-Chain-Project**. In this exercise I enriche
 3. To confirm the **customer/owner information**, I used an independent WHOIS-like lookup (ICANN/WhoIs) to cross-check registration and ownership details. That search surfaced **Complete Web Reviews** as the customer name associated with that IP or range. I captured the relevant output for reference.  
    ![WHOIS/ICANN lookup showing customer info](../screenshots/Talos3.png)
 
-4. I was able to find the answer after scrolling down abit to the Customer Section.
+4. I was able to find the answer after scrolling down abit to the Contact Information Section.
    ![Talos — corroborating evidence / scroll view](../screenshots/Talos4.png)
 
 ---
