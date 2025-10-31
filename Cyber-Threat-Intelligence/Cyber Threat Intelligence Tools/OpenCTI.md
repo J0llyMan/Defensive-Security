@@ -6,7 +6,7 @@
 
 ## 🎯 Objective & Purpose
 
-The main goal of OpenCTI is to **streamline the handling of CTI data** — allowing analysts to capitalise on intelligence from various sources and structure it using frameworks like **MITRE ATT&CK**.
+The main goal of OpenCTI is to **streamline the handling of CTI data** which allows analysts to capitalise on intelligence from various sources and structure it using frameworks like **MITRE ATT&CK**.
 
 It enables:
 - Centralized storage and analysis of **threat campaigns, malware, and IOCs**
@@ -22,9 +22,9 @@ It enables:
 
 When I explored **OpenCTI** through the TryHackMe room, I found the dashboard intuitive yet deeply powerful. It provides multiple visualization options and data relationship graphs that help analysts understand how different indicators connect to broader campaigns.
 
-What stood out the most for me was **its high level of customization** — OpenCTI allows seamless integration with frameworks like **MITRE ATT&CK** and supports automated feeds from other tools. This makes it a top-tier option for organizations that want to **build their own internal threat intelligence ecosystem** without relying entirely on commercial products.
+What stood out the most for me was **its high level of customization** where OpenCTI allows seamless integration with frameworks like **MITRE ATT&CK** and supports automated feeds from other tools. This makes it a top-tier option for organizations that want to **build their own internal threat intelligence ecosystem** without relying entirely on commercial products.
 
-The fact that it’s **completely open-source** means analysts can modify or extend the platform’s features to suit specific use cases — from automated IOC ingestion to intelligence sharing between teams or agencies.
+The fact that it’s **completely open-source** means analysts can modify or extend the platform’s features to suit specific use cases. From automated IOC ingestion to intelligence sharing between teams or agencies.
 
 ---
 
@@ -40,7 +40,7 @@ The fact that it’s **completely open-source** means analysts can modify or ext
 
 ## 💬 Personal Reflection
 
-OpenCTI felt like the **next evolution** of CTI management — bridging the gap between technical detection data and higher-level strategic intelligence. It’s more than just a database; it’s a **knowledge graph for threats**, enabling teams to move from raw data toward actionable insights.
+OpenCTI felt like the **next evolution** of CTI management by bridging the gap between technical detection data and higher-level strategic intelligence. It’s more than just a database; it’s a **knowledge graph for threats**, enabling teams to move from raw data toward actionable insights.
 
 While I completed an introductory exercise using the tool during my TryHackMe training, I decided to categorize that practical section under the **CTFs & Projects** folder for better structure and readability within my documentation.
 
