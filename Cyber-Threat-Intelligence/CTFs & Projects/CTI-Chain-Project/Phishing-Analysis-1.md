@@ -1,10 +1,6 @@
 # Part 1 — Phishing Analysis (CTI-Chain-Project)
 
-This document is the **first part of the CTI-Chain-Project** which is a small investigation chain that documents how I collect, analyse, and escalate threat intelligence from an initial phishing email through to enrichment and reporting.
-
-# 🕵️‍♀️ Phishing-Analysis(Part 1) — Email Analysis Exercise
-
-A short hands-on exercise/CTF from TryHackMe to practise email forensics and phishing triage. I analysed a provided `.eml` sample and answered four questions about the sender, recipient, originating IP, and the email’s path.
+This document is the **first part of the CTI-Chain-Project** which is a small investigation chain that documents how I collect, analyse, and escalate threat intelligence from an initial phishing email through to enrichment and reporting. This part is a short hands-on exercise/CTF from TryHackMe to practise email forensics and phishing triage. I analysed a provided `.eml` sample and answered four questions about the sender, recipient, originating IP, and the email’s path.
 
 ---
 
